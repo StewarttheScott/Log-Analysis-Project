@@ -16,7 +16,7 @@ The newsproject.py file can be viewed at (https://github.com/StewarttheScott/Log
 
 The newsproject.py file for the project, can be [download here](https://github.com/StewarttheScott/Log-Analysis-Project/blob/master/newsproject.py).
 
-The results.md file for the project, can be [download here]( https://github.com/StewarttheScott/Log-Analysis-Project/results.md ).
+The results.md file for the project, can be [download here]( https://github.com/StewarttheScott/Log-Analysis-Project/blob/master/results.md ).
 
 ### Getting Started ###
 
