@@ -38,7 +38,7 @@ def connect():
     return db, cursor
 
 
-def get_query_results(query):
+def get_q_results(query):
     """Return query results"""
     db, cursor = connect()
     cursor.execute(query)
@@ -46,7 +46,7 @@ def get_query_results(query):
     db.close()
 
 
-def print_query_results(query_results):
+def print_q12_results(query_results):
     """Define query 1 & 2_results print format"""
     print (query_results[1])
     for index, results in enumerate(query_results[0]):
@@ -55,7 +55,7 @@ def print_query_results(query_results):
             " -  Views", str(results[1]))
 
 
-def print_error_results(query_results):
+def print_q3_results(query_results):
     """Define query 3 print format"""
     print (query_results[1])
     for results in query_results[0]:
@@ -64,12 +64,12 @@ def print_error_results(query_results):
 
 #Creates query results for printing"""
 if __name__ == '__main__':
-    q1_results = get_query_results(query_1), q_1_title
-    q2_results = get_query_results(query_2), q_2_title
-    q3_results = get_query_results(query_3), q_3_title
+    q1_results = get_q_results(query_1), q_1_title
+    q2_results = get_q_results(query_2), q_2_title
+    q3_results = get_q_results(query_3), q_3_title
 
 
 # Prints query results
-    print_query_results(q1_results)
-    print_query_results(q2_results)
-    print_error_results(q3_results)
+    print_q12_results(q1_results)
+    print_q12_results(q2_results)
+    print_q3_results(q3_results)
