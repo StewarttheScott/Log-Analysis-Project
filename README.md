@@ -16,7 +16,7 @@ The newsproject.py file can be viewed at (https://github.com/StewarttheScott/Log
 
 The newsproject.py file for the project, can be [download here](https://github.com/StewarttheScott/Log-Analysis-Project/blob/master/newsproject.py).
 
-The results.md file for the project, can be [download here](https://github.com/StewarttheScott/Log-Analysis-Project.git/results.py).
+The results.md file for the project, can be [download here]( https://github.com/StewarttheScott/Log-Analysis-Project/results.md ).
 
 ### Getting Started ###
 
@@ -26,6 +26,7 @@ Command Line:
 vagrant@vagrant:/vagrant$ python newsproject.py
 
 Results:
+
 Most popular three articles of all time?
 
 ('Order', 1, '- Article', 'Candidate is jerk, alleges rival', ' -  Views', '338647')

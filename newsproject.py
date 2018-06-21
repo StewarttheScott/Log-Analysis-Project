@@ -5,15 +5,14 @@ import psycopg2, bleach
 q_1_title = ("Most popular three articles of all time?")
 query_1 = (
     "select articles.title, count(*) as views "
-    "from articles inner join log on log.path "
-    "like concat('%', articles.slug, '%') "
+    "from articles join log on log.path like concat('%', articles.slug, '%') "
     "where log.status like '%200%' group by "
     "articles.title, log.path order by views desc limit 3")
 
 q_2_title = ("Most popular article authors of all time?")
 query_2 = (
     "select authors.name, count(*) as views from articles inner "
-    "join authors on articles.author = authors.id inner join log "
+    "join authors on articles.author = authors.id join log "
     "on log.path like concat('%', articles.slug, '%') where "
     "log.status like '%200%' group "
     "by authors.name order by views desc")
@@ -61,7 +60,7 @@ def print_error_results(query_results):
     print (query_results[1])
     for results in query_results[0]:
         print ("Date", results[0],
-        "-", str(results[1]) + "% Errors Recieved")
+        "-", str(results[1]) + "% Errors Received")
 
 #Creates query results for printing"""
 if __name__ == '__main__':
