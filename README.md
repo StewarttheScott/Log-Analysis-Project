@@ -11,11 +11,9 @@ The newsproject.py answers 3 questions.
 
 ### Preview ###
 
-The newsproject.py code for the project, can be [viewed here]
-(https://github.com/StewarttheScott/Log-Analysis-Project/blob/master/newsproject.py).
+The newsproject.py code for the project, can be [viewed here](https://github.com/StewarttheScott/Log-Analysis-Project/blob/master/newsproject.py).
 
-The results.md file for the project, can be [viewed here]
-( https://github.com/StewarttheScott/Log-Analysis-Project/blob/master/results.md ).
+The results.md file for the project, can be [viewed here]( https://github.com/StewarttheScott/Log-Analysis-Project/blob/master/results.md ).
 
 ### Getting Started ###
 
@@ -52,8 +50,7 @@ Days more than 1% of requests lead to errors?
 
 ### Copyright and License ###
 
-* [newsdata.sql]
-(https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
+* [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 database provided by Udacity.* Subscription required to access code *
 * vagrant server [FSND](https://classroom.udacity.com/nanodegrees/nd004-mena/parts/a8609286-c119-4bc5-b9c9-2a3828080114/modules/56f0f4c7-d611-4949-b8d5-e1b9df12d95f/lessons/4cff95e1-3f1c-435a-bc6c-40fcf0d8f884/concepts/0b4079f5-6e64-4dd8-aee9-5c3a0db39840)
 Version provided by Udacity * Subscription required to access code *
