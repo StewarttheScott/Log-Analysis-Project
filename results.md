@@ -1,21 +1,23 @@
-Most popular three articles of all time?
+1. What are the most popular three articles of all time?
+--------------------------------------------------------
 
-('Order', 1, '- Article', 'Candidate is jerk, alleges rival', ' -  Views', '338647')
+Candidate is jerk, alleges rival -- 338647  views
 
-('Order', 2, '- Article', 'Bears love berries, alleges bear', ' -  Views', '253801')
+Bears love berries, alleges bear -- 253801  views
 
-('Order', 3, '- Article', 'Bad things gone, say good people', ' -  Views', '170098')
+Bad things gone, say good people -- 170098  views
 
-Most popular article authors of all time?
+2. Who are the most popular article authors of all time?
+--------------------------------------------------------
+Ursula La Multa -- 507594  views
 
-('Order', 1, '- Article', 'Ursula La Multa', ' -  Views', '507594')
+Rudolf von Treppenwitz -- 423457  views
 
-('Order', 2, '- Article', 'Rudolf von Treppenwitz', ' -  Views', '423457')
+Anonymous Contributor -- 170098  views
 
-('Order', 3, '- Article', 'Anonymous Contributor', ' -  Views', '170098')
+Markoff Chaney -- 84557  views
 
-('Order', 4, '- Article', 'Markoff Chaney', ' -  Views', '84557')
+3. On which days did more than 1% of requests lead to errors?"
+-------------------------------------------------------------
 
-Days more than 1% of requests lead to errors?
-
-('Date', '2016-07-17', '-', '2.26% Errors Received')
+2016-07-17 - 2.26% Errors Received
