@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 # Imports psycopg2 module
 import psycopg2
